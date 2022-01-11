@@ -1,0 +1,145 @@
+######################## default configuration ####################
+baseURL = "www.tastefulspoon.com/"
+languageCode = "en-us"
+title = "Tasteful Spoon"
+theme = "restaurant"
+summaryLength = "80"
+paginate = 4
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
+
+############################## navigation ###############################
+
+[[menu.main]]
+name = "Home"
+URL = ""
+weight = 1
+
+[[menu.main]]
+name = "Recipes"
+URL = "recipes"
+weight = 2
+
+[[menu.main]]
+name = "Articles"
+URL = "articles"
+weight = 3
+
+[[menu.main]]
+name = "Buying Guide"
+URL = "buying-guide"
+weight = 4
+
+[[menu.main]]
+name = "Search"
+URL = "search"
+weight = 5
+
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 6
+
+[[menu.main]]
+name = "Contact Us"
+URL = "contact-us"
+weight = 7
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# meta data
+author = "Monstro R."
+description = "A collection of the best homemade recipes."
+# google analitycs ID
+google_analitycs_id = "Your ID"
+# mainSections
+main_sections = ["post"]
+# copyright
+copyright = "Copyright &copy; 2021 [The Tasteful Spoon](https://www.tastefulspoon.com)"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use .png , .svg or .gif format
+
+################################### Footer ############################
+[params.footer]
+enable = true
+# contactInfoTitle = "CONTACT <span>INFORMATION</span> "
+blogTitle = "LATEST <span>RECIPES</span>"
+galleryTitle = "PHOTO <span>STREAM</span>"
+socialTitle = "Follow <span>US</span>"
+
+############################ footer contact item
+# [[params.footer.contactItem]]
+# title="E-mail"
+# icon = "fa fa-envelope"
+# content = "info@tastefulspoon.com"
+
+######################### footer gallery
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-3.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-4.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+######################## Social Icon
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/themefisher"
