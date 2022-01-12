@@ -16,7 +16,9 @@
 						</button>
 						{{"<!-- logo -->" | safeHTML}}
 						<a class="navbar-brand" href="{{ site.BaseURL }}">
-							<img class="img-responsive" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+							<img class="img-responsive"
+								 style="max-height: 100%"
+								 src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
 						</a>
 						{{"<!-- logo -->" | safeHTML}}
 					</div>
