@@ -38,6 +38,10 @@ URL = "js/venobox.min.js"
 [[params.plugins.js]]
 URL = "js/main.js"
 
+############################ additional config ##########################
+[markup.goldmark.renderer]
+unsafe= true
+
 ############################## navigation ###############################
 
 [[menu.main]]
