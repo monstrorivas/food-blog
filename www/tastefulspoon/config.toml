@@ -67,7 +67,7 @@ weight = 5
 
 [[menu.main]]
 name = "About"
-URL = "about"
+URL = "about-us"
 weight = 6
 
 [[menu.main]]
@@ -78,14 +78,14 @@ weight = 7
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo_header.png"
 # meta data
 author = "Monstro R."
 description = "A collection of the best homemade recipes."
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # mainSections
-main_sections = ["post"]
+recipe_section = ["post"]
 # copyright
 copyright = "Copyright &copy; 2021 [The Tasteful Spoon](https://www.tastefulspoon.com)"
 
