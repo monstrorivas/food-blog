@@ -50,6 +50,11 @@ URL = ""
 weight = 1
 
 [[menu.main]]
+name = "Latest Recipes"
+URL = "#latest-recipes"
+weight = 2
+
+[[menu.main]]
 name = "Recipes"
 URL = "recipes"
 weight = 2

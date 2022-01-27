@@ -1,11 +1,11 @@
-{{ if site.Data.homepage.recipes.enable}}
-<section id="recipes" {{ if site.Data.homepage.recipes.overlay }} class="overlay" {{ end }}
-         style="background-image: url('{{ site.Data.homepage.recipes.bg_image | absURL }}');">
+{{ if site.Data.homepage.articles.enable}}
+<section id="articles" {{ if site.Data.homepage.articles.overlay }} class="overlay" {{ end }}
+         style="background-image: url('{{ site.Data.homepage.articles.bg_image | absURL }}');">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1 class="heading">{{ site.Data.homepage.recipes.title | markdownify }}</h1>
+                    <h1 class="heading">{{ site.Data.homepage.articles.title | markdownify }}</h1>
                     {{ $paginator := .Paginate site.RegularPages }}
                     {{ range first 4 (where site.RegularPages "Type" "in" site.Params.recipe_section) }}
                     <div class="col-lg-6">

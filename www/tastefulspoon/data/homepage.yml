@@ -22,15 +22,15 @@ hero_area:
 about:
   enable: true
   image: "images/logo_medium.png"
-  title: "Welcome to <span> Tasteful Spoon</span>"
+  title: "Welcome to <span>Tasteful Spoon<span/>"
   description: "Tasteful Spoon is a collection of cooking recipes with a huge influence from Central Mexico traditions.
   However, the collection is not exclusively Mexican cuisine. You will find some Italian inspired recipes as well as
   Asian fusions."
 
-################# Blog ######################
-recipes:
+################# Latest Recipes ######################
+latestRecipes:
   enable: true
-  title: "Our Latest <span>Blog</span>"
+  title: "Our Latest Recipes"
   bg_image: "images/blog/blog-pasta-and-shrimp.jpg"
   overlay: true
 
