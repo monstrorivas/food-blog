@@ -35,6 +35,15 @@ latestRecipes:
   overlay: true
 
 
+################# Search ######################
+search:
+  enable: true
+  title: "Search Recipes"
+  bg_image: "images/blog/blog-pasta-and-shrimp.jpg"
+  overlay: true
+  form_action : "search"
+
+
 #################### Subscription ################
 #subscription:
 #  enable : true

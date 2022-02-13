@@ -1,0 +1,29 @@
+<section id="blog" {{ if site.Data.homepage.search.overlay }} class="overlay" {{ end }}
+         style="background-image: url('{{ site.Data.homepage.search.bg_image | absURL }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="heading">{{ site.Data.homepage.search.title | markdownify }}</h1>
+                    <div class="col-lg-6">
+                        <form id="search"
+                              action='#'
+                              method="get">
+                            <label hidden for="search-input">Search site</label>
+                            <input type="text" id="search-input" name="query"
+                                   placeholder="Type here to search">
+                            <input type="submit" value="search">
+
+                        </form>
+                        <ul id="results">
+                            <li>
+                                Enter a keyword above to search this site.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div><!-- .col-md-12 close -->
+        </div><!-- .row close -->
+    </div><!-- .container close -->
+</section><!-- #recipes close -->
